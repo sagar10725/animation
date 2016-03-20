@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ASCIImation</title>
+    <link href="ascii.css" type="text/css" rel="stylesheet">
+    <script src="ascii.js" type="application/javascript"></script>
+    <script src="animations.js" type="application/javascript"></script>
+</head>
+
+<body>
+    <p>CSE 190 M ASCII Animation viewer</p>
+    <textarea rows="20" cols="80" id="txtarea">Wel-Come to ASCII Animation </textarea>
+    <div class="field">
+        <fieldset>
+            <legend>Paly Control</legend>
+            <button id="btnStart">Start</button>
+            <button id="btnStop" disabled>Stop</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Animation</legend>
+            <select id="animation">
+                <option>BLANK</option>
+                <option>EXERCISE</option>
+                <option>JUGGLER</option>
+                <option>BIKE</option>
+                <option>DIVE</option>
+                <option>CUSTOM</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Size</legend>
+            <select id="fontSize">
+                <option>Tiny</option>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Speed</legend>
+            <input type="checkbox" id="chkbox"/>Turbo
+        </fieldset>
+    </div>
+    <div id="validate">
+        <a href="https://webster.cs.washington.edu/jslint/?referer">
+            <img src="https://webster.cs.washington.edu/w3c-js.png" alt="Valid JS" />
+        </a>
+        <a href="http://validator.w3.org/check/referer">
+            <img src="http://mumstudents.org/cs472/2013-09/images/w3c-html.png" alt="html validator">
+        </a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+        </a>
+    </div>
+</body>
+
+</html>

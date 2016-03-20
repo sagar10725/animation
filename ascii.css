@@ -1,0 +1,41 @@
+body {
+    background-color: #CCCCFF;
+    margin: 0px;
+}
+
+button {
+    border-radius: 5px;
+}
+
+#txtarea{
+    width: 90%;
+    height: 400px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+fieldset {
+    display: inline;
+    border: 5px solid black;
+}
+
+.field {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+select{
+    border-radius: 5px;
+}
+#validate {
+    float: right;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
